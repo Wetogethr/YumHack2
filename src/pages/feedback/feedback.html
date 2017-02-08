@@ -1,0 +1,24 @@
+<ion-content>
+  <h3>What do you think of YumHack?</h3>
+    <br />
+    <hr style="width: 50%"/>
+    <br />
+  <p>Type your love or hate note here, and we'll take it to heart.</p>
+
+    <form [formGroup]="feedbackForm">
+        <ion-item>
+            <ion-label floating><h3 style="text-align: left">Name</h3></ion-label>
+            <ion-input formControlName="name" typeof="text"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label floating><h3 style="text-align: left">Email</h3></ion-label>
+            <ion-input formControlName="email" typeof="text"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label floating><h3 style="text-align: left">Feedback</h3></ion-label>
+            <ion-input formControlName="feedback" typeof="text"></ion-input>
+        </ion-item>
+    </form>
+
+    <button href ="mailto:tolenashley7@gmail.com?Subject=YumHack%20Feedback" formtarget="_top">Submit</button>
+</ion-content>

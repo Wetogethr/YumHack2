@@ -1,0 +1,46 @@
+<!--
+  Generated template for the Chickfila page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Chick-fil-A</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+    <ion-list>
+        <button ion-item detail-none *ngFor="let chickfila of chickfilas" (click)="toggleOrder(chickfila)" style="border-bottom: none">
+            <div class="container" style="border-bottom: none">
+                <div class="row menu-item">
+                    <div class="col-align-items-center">
+                        <ion-thumbnail item-left style="display: inline-block; float: left">
+                            <img src="{{ chickfila.image }}" />
+                        </ion-thumbnail>
+                    </div>
+                    <div class="col" style="display: inline-block; margin-top: 25px">
+                        {{ chickfila.name }}
+                    </div>
+                    <div class="col" style="display: inline-block">
+                        <ion-icon item-right [name]="chickfila.icon" style="margin-top: 25px"></ion-icon>
+                    </div>
+                </div>
+                <div class="row how-to-order" *ngIf="chickfila.showOrder" style="border-bottom: none">
+                    <div class="col" style="border-bottom: none">
+                        <h3 style="border-bottom: none">How to Order:</h3>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col" text-wrap style="border-bottom: none">
+                        <ion-item detail-none text-wrap style="border-bottom: none">
+                            <p style="border-bottom: none">{{ chickfila.order }}</p>
+                        </ion-item>
+                    </div>
+                </div>
+            </div>
+        </button>
+    </ion-list>
+</ion-content>

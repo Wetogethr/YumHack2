@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Icomoon';
+  src:  url('../assets/fonts/Icomoon.eot?984cx');
+  src:  url('../assets/fonts/Icomoon.eot?984cx#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Icomoon.ttf?984cx') format('truetype'),
+    url('../assets/fonts/Icomoon.woff?984cx') format('woff'),
+    url('../assets/fonts/Icomoon.svg?984cx#Icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ion-"], [class*=" ion-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ion-ios-like-outline:before,
+.ion-md-like-outline:before,
+.ion-like-outline:before {
+  content: "\e900";
+}
+.ion-ios-dislike-outline:before,
+.ion-md-dislike-outline:before,
+.ion-dislike-outline:before {
+  content: "\e901";
+}
+.ion-ios-feedback-outline:before,
+.ion-md-feedback-outline:before,
+.ion-feedback-outline:before {
+  content: "\e902";
+}
+.ion-ios-secretmenus-outline:before,
+.ion-md-secretmenus-outline:before,
+.ion-secretmenus-outline:before {
+  content: "\e903";
+}
+.ion-ios-tablefeed-outline:before,
+.ion-md-tablefeed-outline:before,
+.ion-tablefeed-outline:before {
+  content: "\e904";
+}
+.ion-ios-discover-outline:before,
+.ion-md-discover-outline:before,
+.ion-discover-outline:before {
+  content: "\e905";
+}
+.ion-ios-like-base:before,
+.ion-md-like-base:before,
+.ion-like-base:before {
+  content: "\e906";
+}
+.ion-ios-dislike-base:before,
+.ion-md-dislike-base:before,
+.ion-dislike-base:before {
+  content: "\e907";
+}
+.ion-ios-feedback-base:before,
+.ion-md-feedback-base:before,
+.ion-feedback-base:before {
+  content: "\e908";
+}
+.ion-ios-secretmenus-base:before,
+.ion-md-secretmenus-base:before,
+.ion-secretmenus-base:before {
+  content: "\e909";
+}
+.ion-ios-tablefeed-base:before,
+.ion-md-tablefeed-base:before,
+.ion-tablefeed-base:before {
+  content: "\e90a";
+}
+.ion-ios-discover-base:before,
+.ion-md-discover-base:before,
+.ion-discover-base:before {
+  content: "\e90b";
+}
+.ion-ios-like:before,
+.ion-md-like:before,
+.ion-like:before {
+  content: "\e90c";
+}
+.ion-ios-dislike:before,
+.ion-md-dislike:before,
+.ion-dislike:before {
+  content: "\e90d";
+}
+.ion-ios-feedback:before,
+.ion-md-feedback:before,
+.ion-feedback:before {
+  content: "\e90e";
+}
+.ion-ios-secretmenus:before,
+.ion-md-secretmenus:before,
+.ion-secretmenus:before {
+  content: "\e90f";
+}
+.ion-ios-tablefeed:before,
+.ion-md-tablefeed:before,
+.ion-tablefeed:before {
+  content: "\e910";
+}
+.ion-ios-discover:before,
+.ion-md-discover:before,
+.ion-discover:before {
+  content: "\e911";
+}
