@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.yumhackionic2628142" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.ionicframework.yumhackionic2628142" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" android-versionCode="" windows-packageVersion="0.0.0.0">
   <name>YumHack</name>
   <description>An app for secret menu items.</description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">Wetogethr</author>
+  <author email="brandon@wetogethr.com" href="http://wetogethr.com/">Wetogethr</author>
   <content src="index.html" />
   <access origin="*" />
   <allow-intent href="http://*/*" />
@@ -34,4 +34,8 @@
   <plugin name="cordova-plugin-statusbar" spec="2.2.1" />
   <plugin name="cordova-plugin-device" spec="1.1.4" />
   <plugin name="cordova-plugin-splashscreen" spec="~4.0.1" />
+  <vs:platformSpecificValues xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps">
+    <vs:platformSpecificWidget platformName="windows" version="0.0.0.0" />
+  </vs:platformSpecificValues>
+  <preference name="deployment-target" value="" />
 </widget>

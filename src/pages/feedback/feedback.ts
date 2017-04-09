@@ -18,8 +18,11 @@ export class FeedbackPage {
       })
     }
 
+  onSubmit(value: string): void {
+      console.log('Thanks for your feedback!', value);
+  }
 }
-
+/*
 EmailComposer.isAvailable().then((available: boolean) => {
     if (available) {
         //Now we know we can send
@@ -39,3 +42,4 @@ let email = {
 
 // Send a text message using default options
 EmailComposer.open(email);
+*/
